@@ -21,7 +21,7 @@ spec:
               containerPort: 8000
           env:
             - name: TEXT
-              value: "JTFG!"
+              value: "J&TFG!"
           resources:
             requests:
               cpu: 10m
