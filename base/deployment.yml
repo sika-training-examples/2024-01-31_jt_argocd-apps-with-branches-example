@@ -18,7 +18,7 @@ spec:
           image: sikalabs/hello-world-server
           ports:
             - name: http
-              containerPort: 80
+              containerPort: 8000
           env:
             - name: TEXT
               value: "JTFG!"
