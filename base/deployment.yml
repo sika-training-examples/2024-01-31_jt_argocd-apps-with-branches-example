@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: main
-          image: sikalabs/hello-world-server
+          image: sikalabs/hello-world-server:ondrejsika
           ports:
             - name: http
               containerPort: 8000
