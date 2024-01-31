@@ -4,6 +4,7 @@ metadata:
   name: jt
 spec:
   selector:
-    svc: jt
+    app: jt
   ports:
     - port: 80
+      targetPort: 8000
