@@ -4,7 +4,7 @@ metadata:
   name: jt
 spec:
   revisionHistoryLimit: 0
-  replicas: 1
+  replicas: 4
   selector:
     matchLabels:
       app: jt
